@@ -198,7 +198,7 @@ class Game{
 			this.setPup("shield");
 			this.spawned[this.currentWave] = true; 
 			this.currentWave++;
-			//sEnmSpawn.play();
+			sEnmSpawn.play();
 		}
 	}
 	setPup(item){
